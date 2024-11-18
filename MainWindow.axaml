@@ -1,0 +1,19 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="productex1.MainWindow"
+        Title="productex1">
+	<StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10" >
+		<TextBlock FontWeight="Bold" Margin="50" FontSize="50" Text="Вход"></TextBlock>
+		<TextBox Watermark="Введите логин"></TextBox>
+		<TextBox Margin="0 10" Watermark="Введите пароль"></TextBox>
+		<StackPanel Orientation="Horizontal" >
+			<Button Content="вход"></Button>
+			<Button Content="войти как гость" Click ="ButtonEnter_Click"></Button>
+			
+		</StackPanel>
+	
+	</StackPanel>
+</Window>
